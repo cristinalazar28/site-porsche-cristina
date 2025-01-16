@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istoria Porsche</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: #000;
+            color: #fff;
+            padding: 15px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Istoria Porsche și CV-ul Meu</h1>
+        <p>Autor: Cristina Lazăr</p>
+    </header>
+    <div class="container">
+        <h2>Despre Porsche</h2>
+        <p>Porsche este o marcă auto de renume mondial, cu o istorie fascinantă și un portofoliu de modele legendare.</p>
+        
+        <h2 id="istoria-porsche">Istoria Porsche</h2>
+        <p>Compania Porsche a fost fondată în 1931 de Ferdinand Porsche. Primul model, Porsche 356, a fost lansat în 1948 și a marcat începutul unui succes global.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Porsche_356.jpg" alt="Porsche 356">
+        <p>Sursa: <a href="https://en.wikipedia.org/wiki/Porsche_356" target="_blank">Wikipedia</a></p>
+
+        <h2 id="modele-celebre">Modele celebre</h2>
+        <ul>
+            <li><strong>Porsche 911:</strong> Un simbol al excelenței sportive, lansat în 1964.</li>
+            <li><strong>Porsche 918 Spyder:</strong> Un hibrid revoluționar cu performanțe uimitoare.</li>
+            <li><strong>Porsche Cayenne:</strong> Primul SUV Porsche, care a devenit un succes global.</li>
+        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/2018_Porsche_911_GT3_4.0.jpg" alt="Porsche 911">
+        <p>Sursa: <a href="https://en.wikipedia.org/wiki/Porsche_911" target="_blank">Wikipedia</a></p>
+
+        <h2 id="linkuri-utile">Link-uri utile</h2>
+        <ul>
+            <li><a href="#istoria-porsche">Secțiunea Istoria Porsche</a></li>
+            <li><a href="#modele-celebre">Secțiunea Modele celebre</a></li>
+            <li><a href="https://www.porsche.com" target="_blank">Site-ul oficial Porsche</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Porsche" target="_blank">Wikipedia - Porsche</a></li>
+        </ul>
+
+        <h2 id="cv">CV-ul Meu</h2>
+        <p>Aici poți descărca CV-ul meu:</p>
+        <p><a href="https://drive.google.com/file/d/1CCtsyaI9uPUY1C-kiftIOUQAy-3Cqwax/view?usp=share_link" target="_blank">Descarcă CV-ul meu (PDF)</a></p>
+
+        <h2 id="contact">Formular de Contact</h2>
+        <form action="send_mail.php" method="POST">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2025 Cristina Lazăr</p>
+    </footer>
+</body>
+</html>
